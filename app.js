@@ -45,7 +45,7 @@ function sendMail(params) {
         clientMail.value = "";
         clientMsg.value = "";
 
-        emailjs.send('gmail', 'template_o6ge12b', tempParams)
+        emailjs.send('service_nbm9f4h', 'template_yrktjtq', tempParams)
             .then(function (res) {
                 console.log("sucess", res.status);
                 alert("Votre mail a bien été envoyé !");
