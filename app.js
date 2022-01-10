@@ -51,10 +51,7 @@ function sendMail(params) {
                 console.log("sucess", res.status);
                 alert("Votre mail a bien été envoyé !");
             });
-            /*emailjs.sendForm('service_nbm9f4h', 'emplate_yrktjtq', message)
-            .then(function(response) {
-               console.log('SUCCESS!', response.status, response.text);
-            });*/
+    
     }
 }
 
