@@ -54,7 +54,6 @@ function sendMail(params) {
     
     }
 }
-
 // function for mobile device size navBar
 navToggle.addEventListener('click', function () {
     navMenuDiv.classList.remove('hideAndSeek');
