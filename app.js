@@ -27,6 +27,7 @@ const aboutSection = document.querySelector('#about');
 const developedHeading = document.querySelector('.copyright h3');
 const nameHeading = document.querySelector('.copyright h4');
 
+
 // Send Mails
 
 function sendMail(params) {
@@ -50,7 +51,10 @@ function sendMail(params) {
                 console.log("sucess", res.status);
                 alert("Votre mail a bien été envoyé !");
             });
-    
+            emailjs.sendForm('service_nbm9f4h', 'emplate_yrktjtq', message)
+            .then(function(response) {
+               console.log('SUCCESS!', response.status, response.text);
+            }
     }
 }
 
