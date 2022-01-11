@@ -141,7 +141,6 @@ function projectCreation(project) {
                         <div class="projectIcons">
                         <a class="projectLinks" href="${project.links.code}" target="_blank"
                                 rel="noopener noreferrer">
-                                <i class="fab fa-github fa-lg"></i>
                             </a>
                         <a class="projectLinks" href="${project.links.view}" target="_blank"
                                 rel="noopener noreferrer">
