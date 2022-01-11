@@ -138,10 +138,6 @@ function projectCreation(project) {
                 <img class="projectImg" src="${project.image}" alt="">
                     <div class="titleAndIconDiv">
                     <h3 class="projectTitle">${project.name}</h3>
-                        <div class="projectIcons">
-                        <a class="projectLinks" href="${project.links.code}" target="_blank"
-                                rel="noopener noreferrer">
-                            </a>
                         <a class="projectLinks" href="${project.links.view}" target="_blank"
                                 rel="noopener noreferrer">
                                 <i class="fas fa-eye"></i>
