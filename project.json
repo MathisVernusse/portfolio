@@ -16,6 +16,17 @@
       "view": "https://www.twitch.tv/screwli_"
     }
   },
+
+  {
+    "id": 13,
+    "name": "Réalisation d'une bande annonce",
+    "image": "./images/imgage_ba.png",
+    "links": {
+      "view": "https://youtu.be/io5NZD2KffY"
+    }
+  },
+
+
   {
     "id": 11,
     "name": "Réalisation d'une publicité",
